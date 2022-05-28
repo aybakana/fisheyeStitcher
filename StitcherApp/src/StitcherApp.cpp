@@ -12,9 +12,9 @@ main(int argc, char** argv)
 
     // Parse input 
     //ffstitcher::InputParser Parser(argc, argv);
-    string working_dir = "D:\\Documents\\MyCppProjects\\StitcherApp\\files";
-    string video_path = working_dir +"\\input_video.mp4";
-    string out_dir = working_dir;
+    string working_dir = "D:\\Documents\\MyCppProjects\\fischeyeStitcher";
+    string video_path = working_dir +"input\\input_video.mp4";
+    string out_dir = working_dir+ "\\input";
     string image_name = "test";
     string mls_map_path = working_dir + "\\utils\\grid_xd_yd_3840x1920.yml.gz";
 
